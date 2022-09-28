@@ -20,6 +20,8 @@ class ClientsController < ApplicationController
 
   private
 
+
+
   def client_params
     params.permit(:name, :age)
   end
